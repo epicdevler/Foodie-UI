@@ -4,12 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/drawable-v24/btn_rounded_design.xml" value="0.2953703703703704" />
+        <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/drawable/account_init_card_backround.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/drawable/btn_rounded_design.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/account_init_activity_layout.xml" value="0.25" />
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/activity_main.xml" value="0.25277777777777777" />
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/home_item_choice_layout.xml" value="0.346875" />
-        <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/init_screen_activity_layout.xml" value="0.1921875" />
+        <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/init_screen_activity_layout.xml" value="0.25" />
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/init_screen_content.xml" value="0.25277777777777777" />
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/init_screen_main_content.xml" value="0.1921875" />
+        <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/login_fragment_layout.xml" value="0.3328125" />
+        <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/signup_fragment_layout.xml" value="0.346875" />
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/splash_content.xml" value="0.346875" />
         <entry key="..\:/Users/epicdevler/AndroidStudioProjects/FoodieUI/app/src/main/res/layout/splash_screen_activity.xml" value="0.346875" />
       </map>

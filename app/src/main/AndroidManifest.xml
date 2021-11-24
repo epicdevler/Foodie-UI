@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodieUI">
         <activity
+            android:name=".startup.accountInit.AccountInit"
+            android:exported="true" />
+        <activity
             android:name=".startup.InitScreen"
             android:exported="true">
             <intent-filter>

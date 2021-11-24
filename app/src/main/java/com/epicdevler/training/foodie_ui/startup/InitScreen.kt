@@ -1,19 +1,18 @@
 package com.epicdevler.training.foodie_ui.startup
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.epicdevler.training.foodie_ui.R
 import com.epicdevler.training.foodie_ui.R.color.orange
 import com.epicdevler.training.foodie_ui.databinding.InitScreenActivityLayoutBinding
+import com.epicdevler.training.foodie_ui.startup.accountInit.AccountInit
 
 @SuppressLint("CustomSplashScreen")
 class InitScreen : AppCompatActivity() {
 
-    lateinit var binding : InitScreenActivityLayoutBinding
+    private lateinit var binding: InitScreenActivityLayoutBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,11 +25,10 @@ class InitScreen : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.splashScreenGetStarted.setOnClickListener {
-            Toast.makeText(this, "Clicked", Toast.LENGTH_LONG).show()
+            startActivity(Intent(this, AccountInit::class.java))
         }
 
     }
-
 
 
 }

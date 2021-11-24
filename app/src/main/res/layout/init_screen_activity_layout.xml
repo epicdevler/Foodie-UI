@@ -60,19 +60,14 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/splashScreen_getStarted"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
+        style="@style/ButtonOutlined"
         android:layout_marginBottom="30dp"
-        android:fontFamily="@font/sf_pro_text_semibold"
-        android:insetTop="0dp"
-        android:insetBottom="0dp"
-        android:padding="16dp"
-        android:text="Get Started"
-        android:textAllCaps="false"
+        android:text="@string/get_started"
         android:textColor="@color/orange"
         android:textSize="17sp"
         app:backgroundTint="@color/white"
-        app:cornerRadius="100dp"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/rightGuide"
+        app:layout_constraintStart_toStartOf="@id/leftGuide" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
